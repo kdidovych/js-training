@@ -12,7 +12,8 @@
  *
  * @param {Number} father 
  * @param {Number} son 
- * @returns Number
+ * @returns {Number}
+ * @throws {Error}
  */
 function whenTwiceOlder(father, son) {
     let difference = father - son;
@@ -26,7 +27,7 @@ function whenTwiceOlder(father, son) {
  * Output years result in text format to console
  *
  * @param {Number} years
- * @returns void
+ * @returns {void}
  */
 function outputYears(years) {
     if (years === 0) {
