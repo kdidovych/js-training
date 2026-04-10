@@ -58,8 +58,3 @@ console.log(getEvenNumbers(arrNumb))
 // Ctreate filter for numbers > 10
 const getGreateTenNumbers = createFilter((el) => el > 10);
 console.log(getGreateTenNumbers(arrNumb));
-
-
-
-
-
